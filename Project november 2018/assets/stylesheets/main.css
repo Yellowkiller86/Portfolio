@@ -1,0 +1,108 @@
+body {
+    background-image: url("https://i.imgur.com/Jvaitl2.jpg");
+    background-size: 100%;
+    padding-top: 3em;
+}
+/*------ NAV -------*/
+ .navbar{
+    width: 100%;
+    box-shadow: 0 0 10px grey;
+    background-color: rgba(19, 18, 18, 0.733);
+    border-radius: 1em;
+    max-height: 10em;
+    position: fixed;
+    z-index: 2;
+    padding: auto;
+  
+  }
+.button1 {
+    background-color: rgba(0,0,0,0);
+    height: 2.2em;
+    width: 6.8em;
+    border: none;
+    color: whitesmoke;
+    font-size: .8em;
+    font-family: 'Allan', cursive;
+  }
+.button1:hover {
+    background-color: #7c675a;
+    height: 2.2em;
+    width: 6.8em;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-size: .8em;
+    font-family: 'Allan', cursive;
+  }
+  .sticky-top {
+    top: 0.5em;
+  }
+.main {
+    background-color: rgb(44, 77, 116);
+}
+.container1 {
+    display: grid;
+	max-width: auto;
+	margin: 0 auto;
+    grid-template-areas:
+    "main1 main1 main1 main1"
+    "side1 main1 main1 main1"
+    "side1 main1 main1 main1"
+    "side1 main2 main2 main2"
+    "main2 main2 main2 main2"
+}
+main1 {
+    grid-area: main1;
+    margin-left: 10em;
+    padding: 1em;
+}
+main2 {
+    grid-area: main2;
+    margin-left: 10em;
+}
+side1 {
+    grid-area: side1;
+    background-color: rgba(27, 26, 26, 0.801);
+    width: 10em;
+    height: 40em;
+    color: white;
+    text-shadow: 2px 2px #43578d;
+    
+}
+h2, h1, p {
+    color: rgb(102, 92, 80);
+    text-shadow: 1px 1px rgb(49, 43, 43);
+}
+h1, h2 {
+    font-family: 'Cardo', serif;
+    font-size: 2em;
+}
+p {
+    font-family: 'Allan', cursive;
+    font-size: 1.5em;
+}
+.button2 {
+    background-color: rgba(0,0,0,0);
+    height: 5em;
+    width: 10em;
+    border: none;
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: 'Allan', cursive;
+}
+  .button2:hover {
+    background-color: #7c675a;
+    height: 5em;
+    width: 10em;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    font-family: 'Allan', cursive;
+    font-size: 1em;
+}
+.grid1 {
+    margin-left: 2em;
+}
+.grid1 >h2 {
+    font-size: 1.25em;
+}
