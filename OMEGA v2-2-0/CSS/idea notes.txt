@@ -1,0 +1,3 @@
+- animated flyin with CSS and JS for opening logo
+- landing page with enter button with tons of whitepace for the logo to swing into
+- 

@@ -1,0 +1,250 @@
+body {
+  background-color: rgb(233, 232, 171);
+  background-size: 100%;
+}
+h1 {
+  font-family: 'kelly slab', cursive;
+}
+*>h2 {
+  font-family: 'orbitron', sans-serif;
+}
+.font1 {
+    font-family: 'kelly slab', cursive;
+    font-size: 7em;
+}
+.font2 {
+  font-family: 'orbitron', sans-serif;
+}
+.font3 {
+    font-family: 'gruppo', cursive;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+/* -------------Carousel Landing --------------- */
+.carousel1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  width: auto;
+}
+.carousel-item {
+  height: auto;
+}
+.carousel-item >img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-height:540px;
+  max-width: none;
+}
+
+/* -----------------content -----------------*/
+
+.Content {
+  width: 90%;
+  padding-top: 1em;
+}
+.content>p {
+  font-family: 'Kelly Slab', cursive;
+}
+
+.mainContent h1 {
+  text-align: center;
+}
+
+.main1 {
+  height: 25em;
+  background-color: rgb(233, 232, 171);
+  width: auto;
+}
+.main2 {
+  height: 25em;
+  background-color: rgb(233, 232, 171);
+  width: auto;
+  left: 0;
+}
+.main3 {
+  height: 25em;
+  background-color: rgb(233, 232, 171);
+  width: auto;
+}
+
+.img-cont {
+  margin-left: 0%;
+}
+
+p {
+  font-family: 'gruppo', cursive;
+  font-size: 1.5em;
+  
+}
+
+.agri1 {
+  overflow: hidden;
+  height: auto;
+}
+.agri1>p {
+  padding-left: 1em;
+  border-left: 12px solid rgb(22, 56, 168);
+}
+.source {
+  font-size: 12px;
+  margin-left: 2em; 
+}
+/* -------------Footer ---------------*/
+footer {
+  font-family: 'gruppo', cursive;
+}
+footer>h3 {
+  font-family: 'gruppo', cursive;
+}
+.foot-grid {
+  background-color: #43578d;
+  display: grid;
+  grid-template-areas:
+  "foot foot foot";
+  color: white;
+
+}
+.icons {
+  padding: 5px;
+  margin-left:1em;
+  
+}
+.footer-copyright {
+  background-color: #43578d;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+.blocker {
+  width: 100%;
+  margin: 1em;
+}
+/* --------Custom Scrollbar-------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #32416b; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #202a46; 
+}
+ #contact-form {
+  width: 50%;
+  margin: 0 auto;
+ }
+ form {
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+ .map-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ /*------ NAV -------*/
+ .navbar{
+  margin-top: -10em;
+  width: 100%;
+  box-shadow: 0 0 10px grey;
+  background-color: rgba(19, 18, 18, 0.733);
+  max-height: 10em;
+  position: fixed;
+  z-index: 2;
+  padding: auto;
+
+}
+.button1 {
+  background-color: rgba(0,0,0,0);
+  height: 2.2em;
+  width: 6.8em;
+  border: none;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: .8em;
+}
+.button1:hover {
+  background-color: #43578d;
+  height: 2.2em;
+  width: 6.8em;
+  border: none;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: .8em;
+}
+.sticky-top {
+  top: 0.5em;
+}
+.logo {
+  padding-top: .5em;
+  background-color: rgba(0,0,0,0);
+}
+
+/*--------- ABOUT PAGE HEROES -------------*/
+.about1 {
+  height: 25em;
+}
+.about1>p {
+  height: 10em;
+  padding-left: 1em;
+  border-left: .5em solid #43578d;
+}
+.about1>p>img {
+  max-height: 10em;
+}
+.about2 {
+  height: 25em;
+  overflow: auto;
+}
+.about2>p {
+  height: 10em;
+  padding-left: 1em;
+  border-left: .5em solid #43578d;
+}
+.about3 {
+  height: 25em;
+  overflow: auto;
+}
+.about3>p {
+  height: 10em;
+  padding-left: 1em;
+  border-left: .5em solid #43578d;
+}
+/*-------------- FOOD IMAGES ------------------*/
+.food-img {
+  padding: 2em;
+}
+
+/*-------------- MEMBER AREA ------------------*/
+.team-main {
+  background-color: #43578d6e;
+  padding-top: 10em;
+  text-align: left;
+}
+.member {
+  padding: 1em;
+}
+.member-photo>img {
+  width: 300px;
+  height: auto;
+}
